@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+        // var email = prompt('Enter email : ')
+        // var A = email.match(/[\a+]/g) // give only "a", how much is that alphabet is coming, we can give any alphabet in the place of "a"
+        // if(A != null){
+        //     document.write(A + ": Pattern is there ...")
+        //     document.write('<hr>')
+        // } else {
+        //     document.write(A + ': Pattern ia not there' + '<hr>')
+        // }
+
+        var email = prompt('Enter email : ')
+        var A = email.match(/[\a*]/g)
+        if(A != null){
+            document.write(A + ": Pattern is there ...")
+            document.write('<hr>')
+        } else {
+            document.write(A + ': Pattern ia not there' + '<hr>')
+        }
+    </script>
+</body>
+</html>

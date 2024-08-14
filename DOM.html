@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+                <legend>DOM</legend>
+                
+                <label for="">Username</label>
+                <input type="text" placeholder="Username" id="A">
+                <input type="submit" value="Validate" onclick="Test_Case1()">
+        </fieldset>
+</form>
+
+    <script>
+        function Test_Case1(){
+            var user_name = document.getElementById("A").value
+            document.write("My username is : " + user_name + '<hr>')
+        }
+    </script>
+</body>
+</html>
