@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function Test_Case(obj1, obj2, obj3){
+        //     return obj1+obj2+obj3
+        // }
+        // var ans = Test_Case(1,2,3)
+        // console.log(ans)
+
+
+
+        // var a = window.prompt('Enter a : ')
+        // var b = Number(window.prompt('Enter b : '))
+        // var res1 = a===b // compare data types
+        // var res2 = a==b // compare values
+
+        // document.write('The result1 is : ' + res1)
+        // document.write('<hr>')
+        // document.write('Data type of res1 is : ' + typeof(res1))
+        // document.write('<hr>')
+        // document.write('The result2 is : ' + res2)
+        // document.write('<hr>')
+        // document.write('Data type of res2 is : ' + typeof(res2))
+        // document.write('<hr>')
+
+
+
+
+        function Test_Case(...a){
+            S = 0
+            for(var i=0;i<a.length;i++){
+                S = S + a[i]
+            }
+            document.write("The sum of arguement is : " + S)
+            document.write('<br>')
+        }
+
+        Test_Case(10)
+        Test_Case(10, 20)
+        Test_Case(10, 20, 30)
+
+
+
+        
+
+
+    </script>
+
+</body>
+</html>
+
+<!-- WAP to check given number is even or odd.
+     WAP to find factorial of a given number.
+-->
