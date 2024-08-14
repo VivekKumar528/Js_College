@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // for(var i=0;i<=10;i++){
+        //     console.log(i)
+        //     document.write(i)
+        //     document.write('<hr>')
+        // }
+
+
+
+        // var product = [121,122,123,124,125]
+        // for(var i=0;i<product.length;i++){
+        //     document.write(i, ' - ', product[i] , "<hr>")
+        // }
+
+        var product = [121,122,123,124,125,126]
+        var sum = 0
+        var idxSum = 0
+        for(var i=0;i<product.length;i++){
+            sum = sum + product[i]
+            idxSum = idxSum + i
+        }
+        document.write('The sum is : ' + sum + '<hr>')
+        document.write('The sum of indices is : ' + idxSum)
+
+
+    </script>
+</body>
+</html>
